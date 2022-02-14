@@ -1,6 +1,7 @@
 # README
 - this is a simple research pipeline example
-- it allows to run the entire process from data querying / preparation to a ready-to-submit manuscript without switching software
+- it allows to run the entire process from data preparation to a ready-to-submit manuscript including references etc.
+- it allows this entire process to be run without ever switching software 
 - it allows the entire process to be easily reproduced with alternative cut-offs, definitions, subsets etc.
 - it is perfectly suited to accomodate both:
 1. to be run on small samples for the sake of speed and simplicity 
