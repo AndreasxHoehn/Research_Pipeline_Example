@@ -2,6 +2,7 @@
 - this is a simple research pipeline example
 - it allows to run the entire process from data querying / preparation to a ready-to-submit manuscript without switching software
 - it allows the entire process to be easily reproduced with alternative cut-offs, definitions, subsets etc.
-- it accomodates the option to be run on small samples for the sake of speed and simplicity 
-- at the same time, it allows to run all code segments to be run easily in batch modes (i.e. National Safe Haven settings) when the process is time and memory consuming
+- it is perfectly suited to accomodate both:
+1. to be run on small samples for the sake of speed and simplicity 
+2. to be run in batch mode settings (i.e. National Safe Haven settings) when the process is time and memory consuming
 - for server setups, we typically need to find a work-around for pandoc when creating our final output
