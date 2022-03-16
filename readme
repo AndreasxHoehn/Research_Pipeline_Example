@@ -7,3 +7,4 @@
 1. to be run on small samples for the sake of speed and simplicity 
 2. to be run in batch mode settings (i.e. National Safe Haven settings) when the process is time and memory consuming
 - for server setups, we typically need to find a work-around for pandoc when creating our final output
+- work-arounds for apache/guacamole settings will be presented in a later example 
