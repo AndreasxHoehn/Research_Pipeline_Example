@@ -1,0 +1,39 @@
+---
+title: "My Research Paper"
+author: "A. Researcher"
+date: "2023/06/06"
+output:
+  word_document: default
+bibliography: references.bib
+csl: demography.csl
+---
+
+# Extended Abstract
+This is an example of a research pipeline. The original data covered 
+`r dim(dt_all)[1]` individuals. The subset, in which we focused on the 
+`r definitions$subset_sex` sex contained `r dim(dt_studypop)[1]` individuals. 
+The mean income for this group was `r sprintf("%.2f",round(mean(dt_studypop$income),2))` 
+units. We can also use citations in this pipeline, for example as part 
+of a literature review or discussion [@andersson2004childbearing]. 
+
+# A Figure 
+That is the relation between income and age for the studied `r definitions$subset_sex` 
+subset:
+
+```{r fig.pos = 'H', echo = FALSE, out.width="80%"} 
+include_graphics(here::here("RImages/plot.jpeg"))
+```
+
+Figure 1: `r plot_title `
+
+# A Table Example 
+And that's a table for the subset.
+
+Table 1: `r table_studypop_title`
+
+```{r allsev, echo = FALSE, results= 'asis'} 
+knitr::kable(table_studypop)
+```
+
+
+# References 
