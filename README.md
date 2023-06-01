@@ -1,2 +1,2 @@
-# Research_Pipeline_Example
-This is the example used for a presentation to the Royal Statistical Society Glasgow, 06/2023
+# README
+This is a research pipeline example. Think of it as a one-stop-shop which allows you to run the entire process from data preparation to a ready-to-submit manuscript with references in the required journal citation style. It allows us to do this entire process without ever switching software. Its major advantage lies in the reproducibility of projects and that it allows us to easily explore alternative cut-offs, definitions, or subsets of our study population. The setup is perfectly suited to be run in batch-mode server settings - settings where we send files away to high performance computing environments and recieve the result of the process later.
