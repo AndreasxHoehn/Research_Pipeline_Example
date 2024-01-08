@@ -54,7 +54,6 @@ here <- here::here
 # change the value here and you get the entire paper based on this change
 definitions <- list()
 definitions$subset_sex <- "female" # either: male/female
-# definitions$subset_sex <- "male" # either: male/female
 
 # ---------------------------------------------------------------------------- # 
 
@@ -75,7 +74,7 @@ source("RCode/02_data_analysis.R")
 # source bib files as usual
 # rmarkdown might requires here:: file paths due to location of pandoc 
 rmarkdown::render(input = "RCode/03_manuscript.Rmd",
-			output_file = here::here("ROutput/manuscript_.docx"),
+			output_file = here::here("ROutput/manuscript.docx"),
 			output_format = "word_document")
 
 # ---------------------------------------------------------------------------- # 
